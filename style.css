@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #121212;
+    color: white;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 220px;
+    background: #1e1e2f;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    background: #2c2c3e;
+    border: none;
+    color: white;
+}
+
+.main {
+    flex: 1;
+    padding: 20px;
+}
+
+.section {
+    display: none;
+}
+
+.cards {
+    display: flex;
+    gap: 20px;
+}
+
+.cards div {
+    background: #2c2c3e;
+    padding: 20px;
+}
